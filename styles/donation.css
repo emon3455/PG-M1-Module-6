@@ -1,0 +1,258 @@
+/* Common code */
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    color: #121212;
+}
+
+.btn-primary{
+    padding: 15px 25px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    background-color:#FF5959;
+    color: #ffff;
+}
+
+.main{
+    margin: 0 250px;
+}
+
+.section-header{
+    margin-top: 100px;
+    margin-bottom: 30px; 
+    font-size: 45px;
+    text-align: center;
+}
+
+.section-description{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+}
+
+/* common code */
+
+
+/* --------------- header start ------------------ */
+
+.header{
+
+    min-width: 1350px;
+    min-height: 657px;
+    background-blend-mode: multiply;
+    background-image: url(/images/donation12.png) ,linear-gradient(360deg, #000000 0%, rgba(19, 15, 15, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.header-title{
+    padding: 200px 300px 50px 300px;
+    font-size: 60px;
+    color: #ffffff;
+    
+}
+
+.header-description{
+    padding: 0 350px 50px 350px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* ------------------header end -------------------*/
+
+
+/* ----------------Start Of Main section------------------------- */
+
+/* donate today section start */
+.donate-today{
+    text-align: center;
+} 
+
+.section-details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.detail{
+    height: 120px;
+    width: 120px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.detail .tk{
+    color: #707070;
+    font-size: 23px;
+    font-weight: 600;
+    padding-top: 45px;
+}
+
+.section-details :nth-child(2){
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+
+.section-details :nth-child(2) .tk{
+   color: red;
+}
+
+.section-ft{
+    padding: 20px;
+    color: #707070;
+    font-size: 20px;
+}
+
+.donate-btn{
+    margin: 10px 0;
+}
+/* donate today section start */
+
+
+/* Donation plan start */
+
+.donations-info{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.donation{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.donation-img{
+    margin-top: 15px;
+}
+
+.donation-title{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.donation-des{
+    font-size: 15px;
+    color: #707070;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.donations-info > :nth-child(1){
+    background-color: aliceblue;
+}
+
+.donations-info > :nth-child(2){
+    background-color: #ff59591a;
+}
+
+.donations-info > :nth-child(3){
+    background-color: #FFF4D6;
+}
+/* Donation plan end */
+
+
+
+/* blogs start */
+
+.blogs-container{
+    margin: 70px 0;
+}
+
+.blog{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.blog-img-1{
+    max-width: 400px;
+    display: block;
+}
+
+.blog-img-2{
+    margin-right: 22px;
+    max-width: 400px;
+    display: block;
+}
+
+.blog-title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.blog-desc{
+    color: #707070;
+    margin-bottom: 15px;
+}
+
+.btn-primary-sml{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/* blogs end */
+
+/* get update section start */
+
+.get-updates{
+    margin-bottom: 80px;
+}
+
+.con-p{
+    padding: 0 70px;
+}
+
+.contact{
+    min-width: 800px;
+    min-height: 150px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 60px;
+}
+
+input[type="email"]{
+    padding: 11.5px 20px;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 5px 0 0 5px;
+}
+
+.get-updates  button{
+   border-radius: 0 5px 5px 0;
+}
+/* get update section end */
+
+/* ----------------End Of Main section------------------------- */
+
+
+/* --------------- footer start-------------- */
+
+.footer{
+    background-color: #000000;
+    text-align: center;
+    min-height: 100px;
+}
+
+.footer-intro{
+    color: #FF5959;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.footer-txt{
+    color: #D9D9D9;
+    font-size: 14px;
+}
+/* --------------- footer end -------------- */
